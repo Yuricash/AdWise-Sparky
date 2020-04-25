@@ -1,0 +1,51 @@
+#textInput {
+    border: none;
+    border-bottom: 3px solid aqua;
+}
+.userText {
+    color: #000000;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+.userText span {
+    background-color: #ffd145;
+    padding: 10px;
+    border-radius: 2px;
+}
+.botText {
+    color: white;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+.botText span {
+    background-color: #8c1d40;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.botText p, ol, ul, br {
+    font-family: monospace;
+    font-size: 17px;
+}
+
+#chatbox
+{   overflow-y: scroll;
+    height: 650px;
+} 
+.mycustomclass{
+    background-image: url('/static/images/Banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+}
+.mycustomclass1{
+    background-image: url('/static/images/cover1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,223 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "hola","aloha"],
+     "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?", "What can I help you with?"],
+     "context_set": ""
+    },
+    {"tag": "maker",
+        "patterns": ["who is your maker?", "Who made you?", "Who created you?"],
+        "responses": ["I was made with love by Yurika and Sayantan! <3", "Yurika and Sayantan!"],
+        "context_set": ""
+       },
+    {"tag": "how_r_u",
+        "patterns": ["How are you","How's your day going?", "Hey, how's it going?"],
+        "responses": ["Now that you are here, it's going great","It's been great, thank you for asking!", "Good, how nice of you to ask!"],
+        "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+     "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+     "context_set": ""
+    },
+    {"tag": "age",
+     "patterns": ["how old", "how old is AdWise Sparky", "what is your age", "how old are you", "age?"],
+     "responses": ["Not a month old!", "Few weeks old!"],
+     "context_set": ""
+    },
+    {"tag": "name",
+     "patterns": ["what is your name", "what should I call you", "whats your name?", "Who are you?"],
+     "responses": ["You can call me AdWise Sparky.", "I'm AdWise Sparky!", "I'm AdWise Sparky, here to help with your admission."],
+     "context_set": ""
+    },
+    {"tag": "credit_fees",
+        "patterns": ["What is the fees per credit hour?", "What is the per credit fees?", "Fees per credit?"],
+        "responses": ["The fees per credit hour is $1400.", "Its $1400."],
+        "context_set": ""
+       },
+       {"tag": "thanks",
+        "patterns": ["Thank You!", "Thanks", "Thank you very much!"],
+        "responses": ["Oh, you are welcome!", "It's my job! :)", "No Problem! Can I help you with anything else?"],
+        "context_set": ""
+       },
+       {"tag": "#Cost_Of_Attendance_G",
+        "patterns": ["What is the Cost of Attendance for International Graduate student?","Cost of Attendance for Graduate International?", "COA Graduate International", "What is the basic tuition fees?"],
+        "responses": ["I like that you are planning your finances! The average Cost of Attendance for an International Graduate student is $50,000. You can get the breakdown and more informationa at <a target=_blank href=https://students.asu.edu/standard-cost-attendance#graduate>this link</a>!"],
+        "context_set": ""
+       },
+       {"tag": "#CreditReq",
+        "patterns": ["How many credits are required for full-time enrollment?", "How many credits per semester?", "credits/semester?"],
+        "responses": ["For full time enrollment, 12 credits are required for undergraduates and 9 credits for graduates."],
+        "context_set": ""
+       },
+       {"tag": "#COA_FAQ",
+        "patterns": ["Is housing from the University mandatory?", "Is meal plan from the University mandatory?"],
+        "responses": ["No, it is not mandatory. :)", "It is your personal choice! :)"],
+        "context_set": ""
+       },
+       {"tag": "#FinancialAid",
+        "patterns": ["Is there any financial aid available?", "Am I eligible for Financial Aid?", "How can I avail Financial Aid?", "What kind of financial aid are available?","What is the deadline to apply for financial assistance?","How much financial aid is granted by asu?","What is the requirement for financial aid?"],
+        "responses": ["I believe you are a bright student. You should definetely check out this <a target=_blank href=https://students.asu.edu/financialaid/financial-assistance>link </a>!","ASU has many forms of financial aid available, including scholarships, grants, federal work-study and loans. Check out this <a target=_blank href=https://students.asu.edu/financialaid/financial-assistance>link </a>!","Check out this <a target=_blank href=https://students.asu.edu/financialaid/financial-assistance>link</a> to get an idea of some of the financial awards you could be eligible for."],
+        "context_set": ""
+       },
+       {"tag": "#PayCollege",
+        "patterns": ["How can I pay my Fees?", "What options are available to pay my fees?", "How can I pay for my College?"],
+        "responses": ["Sure, I can help you understand all of your options and what you have to do. Check it out <a target=_blank href=https://students.asu.edu/financialaid/paying>here</a>.", "I fetched up <a target=_blank href=https://students.asu.edu/financialaid/paying>this</a> link for you. This should help. :)"],
+        "context_set": ""
+       },
+       {"tag": "#GraduatePrograms",
+        "patterns": ["What graduate programs are avaiable?","Is there a list of graduate programs I can get?","Can I get a list of Graduate programs available?","Where can I explore graduate degrees?","In what fields can I do my Master's?", "In what fields can I do my MS?","I'm not sure of my interests, can you help me?"],
+        "responses": ["Follow <a target=_blank href=https://webapp4.asu.edu/programs/t5/graduate/false?init=false&nopassive=true>this link</a> to find more about the programs offered!"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Archi",
+        "patterns": ["Are there any graduate degrees available in Architecture and Construction?", "What graduate degrees are offered in Architecture and Construction?", "Can I get a list degrees available in Architecture and Construction?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/01/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/01/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Arts",
+        "patterns": ["Are there any graduate degrees available in Arts?", "What graduate degrees are offered in Arts?", "Can I get a list degrees available in Arts?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/02/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/02/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Business",
+        "patterns": ["Are there any graduate degrees available in Business?", "What graduate degrees are offered in Business?", "Can I get a list degrees available in Business?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/04/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/04/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Communication",
+        "patterns": ["Are there any graduate degrees available in Communication & Media?", "What graduate degrees are offered in Communication & Media?", "Can I get a list degrees available in Communication & Media?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/05/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/05/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Computing",
+        "patterns": ["Are there any graduate degrees available in Computing & Mathematics?", "What graduate degrees are offered in Computing & Mathematics?", "Can I get a list degrees available in Computing & Mathematics?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/06/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/06/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Education",
+        "patterns": ["Are there any graduate degrees available in Education & Teaching?", "What graduate degrees are offered in Education & Teaching?", "Can I get a list degrees available in Education & Teaching?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/07/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/07/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Engg",
+        "patterns": ["Are there any graduate degrees available in Engineering & Technology?", "What graduate degrees are offered in Engineering & Technology?", "Can I get a list degrees available in Engineering & Technology?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/08/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/08/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Entrepreneurship",
+        "patterns": ["Are there any graduate degrees available in Entrepreneurship?", "What graduate degrees are offered in Entrepreneurship?", "Can I get a list degrees available in Entrepreneurship?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/21/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/21/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Health",
+        "patterns": ["Are there any graduate degrees available in Health & Wellness?", "What graduate degrees are offered in Health & Wellness?", "Can I get a list degrees available in Health & Wellness?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/03/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/03/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Humanities",
+        "patterns": ["Are there any graduate degrees available in Humanities?", "What graduate degrees are offered in Humanities?", "Can I get a list degrees available in Humanities?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/11/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/11/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_InterdisciplinaryStudies",
+        "patterns": ["Are there any graduate degrees available in Interdisciplinary Studies?", "What graduate degrees are offered in Interdisciplinary Studies?", "Can I get a list degrees available in Interdisciplinary Studies?"],
+        "responses": ["<a target=_blank href=Interdisciplinary Studies>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/10/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Law",
+        "patterns": ["Are there any graduate degrees available in Law, Justice & Public Service?", "What graduate degrees are offered in Law, Justice & Public Service?", "Can I get a list degrees available in Law, Justice & Public Service?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/12/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/12/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Psychology",
+        "patterns": ["Are there any graduate degrees available in Psychology?", "What graduate degrees are offered in Psychology?", "Can I get a list degrees available in Psychology?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/19/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/19/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Science",
+        "patterns": ["Are there any graduate degrees available in Science?", "What graduate degrees are offered in Science?", "Can I get a list degrees available in Science?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/18/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/18/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Social and Behavioral Sciences",
+        "patterns": ["Are there any graduate degrees available in Social and Behavioral Sciences?", "What graduate degrees are offered in Social and Behavioral Sciences?", "Can I get a list degrees available in Social and Behavioral Sciences?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/13/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/13/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_Sustainability",
+        "patterns": ["Are there any graduate degrees available in Sustainability?", "What graduate degrees are offered in Sustainability?", "Can I get a list degrees available in Sustainability?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/15/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/15/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_STEM",
+        "patterns": ["Are there any graduate degrees available in STEM?", "What graduate degrees are offered in STEM?", "Can I get a list degrees available in STEM?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/20/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/AreaOfInterest/20/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_ConcurrentOptions",
+        "patterns": ["Are there any concurrent options available?", "What graduate degrees are offered in Concurrent Options?", "Can I get a list degrees available in Concurrent Options?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/Concurrent/all/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/Concurrent/all/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Grad_Prog_AcceleratedOptions",
+        "patterns": ["Are there any accelerated options available?", "What graduate degrees are offered in accelerated Options?", "Can I get a list degrees available in accelerated Options?"],
+        "responses": ["<a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/Adv/-UndergradAdd:accelerated/graduate/false>Here</a> is something I found, have a look.", "I found <a target=_blank href=https://webapp4.asu.edu/programs/t5/programs/Adv/-UndergradAdd:accelerated/graduate/false>these</a>"],
+        "context_set": ""
+       },
+       {"tag": "#Admission_Requirements",
+        "patterns": ["What are the admission requirements?", "Can you tell me admission requirement?"],
+        "responses": ["While each of ASU's graduate programs has unique admission standards, ASU has set minimum requirements for admission to master's, certificate and doctoral programs.", "Hi there, I have something called top 10 tips for you to look at. It should help. You should take advantage of resources that will help you prepare your application.<ol><li><a target=_blank href=https://webapp4.asu.edu/programs/t5/graduate/false>Find</a> a program you're interested in</li><li>You can start the <a target=_blank href=https://webapp4.asu.edu/dgsadmissions/>application</a>, save your work and return to it </li><li>Gather contact information from your recommenders for <a target=_blank href=https://admission.asu.edu/graduate/letter-of-recommendation>letter of recommendation</a></li><li>Prepare a list of all the colleges and schools you've attended and when</li><li>You may be asked to submit a <a target=_blank href=https://admission.asu.edu/graduate/personal-statement>personal statement</a></li><li>Former students should have their ASU ID number handy</li><li>Update your resume</li><li>Have your unofficial transcripts available</li><li>Find if to GRE or not to GRE </li><li>We recommend you start the application process as early as possible. Learn more about ASU's <a target=_blank href=https://admission.asu.edu/graduate/seminars>Explore Graduate School Seminars</a> and test preparation programs.  </li></ol>"],
+        "context_set": ""
+       },
+       {"tag": "#Application_Steps",
+        "patterns": ["What are the steps to apply for masters?", "What are the steps to apply for MS?", "How can I apply to ASU?", "Can you guide me to apply for my program?", "I don't know how to apply to school, can you help me?" ],
+        "responses": ["Sure, I can tell you it's easy process involving four steps <ol><li>Ensure you meet admission requirements</li><li>Complete a graduate admission application</li><li>Pay the application fee</li><li>Submit any additional materials</li></ol><p> More info can be found <a target=_blank href=https://admission.asu.edu/graduate/apply>here</a>","Hi there, I have something called top 10 tips for you to look at. It should help. You should take advantage of resources that will help you prepare your application.<ol><li><a target=_blank href=https://webapp4.asu.edu/programs/t5/graduate/false>Find</a> a program you're interested in</li><li>You can start the <a target=_blank href=https://webapp4.asu.edu/dgsadmissions/>application</a>, save your work and return to it </li><li>Gather contact information from your recommenders for <a target=_blank href=https://admission.asu.edu/graduate/letter-of-recommendation>letter of recommendation</a></li><li>Prepare a list of all the colleges and schools you've attended and when</li><li>You may be asked to submit a <a target=_blank href=https://admission.asu.edu/graduate/personal-statement>personal statement</a></li><li>Former students should have their ASU ID number handy</li><li>Update your resume</li><li>Have your unofficial transcripts available</li><li>Find if to GRE or not to GRE </li><li>We recommend you start the application process as early as possible. Learn more about ASU's <a target=_blank href=https://admission.asu.edu/graduate/seminars>Explore Graduate School Seminars</a> and test preparation programs.  </li></ol>"],
+        "context_set": ""
+       },
+       {"tag": "#Documents_Needed",
+        "patterns": ["What are the set of documents I would need to apply?", "Can you tell me what documents I would be required to submit?", "Do you what are basic documents needed for application process?", "I don't know what documents are needed to apply to school, can you help me?" ],
+        "responses": ["Don't worry I am here. Documents needed to apply to graduate school are Transcripts, Official test scores, Additional support materials. For international applicants English proficiency and Visa and immigration docs. <p> More info can be found <a target=_blank href=https://admission.asu.edu/graduate/apply>here</a>","Hi there, I have something called top 10 tips for you to look at. It should help. You should take advantage of resources that will help you prepare your application.<ol><li><a target=_blank href=https://webapp4.asu.edu/programs/t5/graduate/false>Find</a> a program you're interested in</li><li>You can start the <a target=_blank href=https://webapp4.asu.edu/dgsadmissions/>application</a>, save your work and return to it </li><li>Gather contact information from your recommenders for <a target=_blank href=https://admission.asu.edu/graduate/letter-of-recommendation>letter of recommendation</a></li><li>Prepare a list of all the colleges and schools you've attended and when</li><li>You may be asked to submit a <a target=_blank href=https://admission.asu.edu/graduate/personal-statement>personal statement</a></li><li>Former students should have their ASU ID number handy</li><li>Update your resume</li><li>Have your unofficial transcripts available</li><li>Find if to GRE or not to GRE </li><li>We recommend you start the application process as early as possible. Learn more about ASU's <a target=_blank href=https://admission.asu.edu/graduate/seminars>Explore Graduate School Seminars</a> and test preparation programs.  </li></ol>"],
+        "context_set": ""
+       },
+       {"tag": "#Application_Timelines1",
+        "patterns": ["When do I apply for grad school?", "When is the right time to apply to the school?", "When do grad school application begins"],
+        "responses":["The application for admission opens almost a year prior to the academic term you would begin your studies. Use the <a target=_blank href=https://admission.asu.edu/graduate/apply#apply>chart above</a> for graduate application open dates for both fall and spring semesters."],
+        "context_set": ""
+       },
+       {"tag": "#Application_Timelines2",
+        "patterns": ["What is the grad school application deadline?", "What is the last date to apply?", "Am I late to apply?", "Do you know the application deadlines" ],
+        "responses": ["Application deadlines are set and enforced by academic program offices. Specific deadline information can be found in the program descriptions on <a target=_blank href=https://webapp4.asu.edu/programs/t5/graduate/false>Degree Search</a>. Please contact the academic program office offering the program for exceptions."],
+        "context_set": ""
+       },
+       {"tag": "#Application_Timelines3",
+        "patterns": ["When do I apply for grad school?", "Can you tell me what documents I would be required to submit?", "Do you what are basic documents needed for application process?", "I don't know what documents are needed to apply to school, can you help me?" ],
+        "responses": ["Don't worry I am here. Documents needed to apply to graduate school are Transcripts, Official test scores, Additional support materials. For international applicants English proficiency and Visa and immigration docs. <p> More info can be found <a target=_blank href=https://admission.asu.edu/graduate/apply>here</a>","Hi there, I have something called top 10 tips for you to look at. It should help. You should take advantage of resources that will help you prepare your application.<ol><li><a target=_blank href=https://webapp4.asu.edu/programs/t5/graduate/false>Find</a> a program you're interested in</li><li>You can start the <a target=_blank href=https://webapp4.asu.edu/dgsadmissions/>application</a>, save your work and return to it </li><li>Gather contact information from your recommenders for <a target=_blank href=https://admission.asu.edu/graduate/letter-of-recommendation>letter of recommendation</a></li><li>Prepare a list of all the colleges and schools you've attended and when</li><li>You may be asked to submit a <a target=_blank href=https://admission.asu.edu/graduate/personal-statement>personal statement</a></li><li>Former students should have their ASU ID number handy</li><li>Update your resume</li><li>Have your unofficial transcripts available</li><li>Find if to GRE or not to GRE </li><li>We recommend you start the application process as early as possible. Learn more about ASU's <a target=_blank href=https://admission.asu.edu/graduate/seminars>Explore Graduate School Seminars</a> and test preparation programs.  </li></ol>"],
+        "context_set": ""
+       },
+       {"tag": "#StudentVisa",
+        "patterns": ["What type of visa do I need?", "Which student visa do I need?"],
+        "responses": ["As an international student at Arizona State University, you will need to obtain an F-1 or J-1 student visa. <p><ul><li>F-1 student visa</li><li>J-1 student visa</li><li><a target=_blank href=https://admission.asu.edu/sites/default/files/33056_f-2dependentsintous_handout_v8.pdf>F-2 dependent visa (undergraduate)</a></li><li><a target=_blank href=https://admission.asu.edu/sites/default/files/33056_f-2dependentsintous_handout_v8.pdf>F-2 dependent visa (graduate)</a></li></ul>"],
+        "context_set": ""
+       },
+       {"tag": "#ASUResources",
+        "patterns": ["What Academic resources does ASU have?", "What community resources does ASU have?", "What Transportation resources does ASU have?", "What resources does ASU have?", "Does ASU have Libraries?", "Does ASU have Graduate Academic Center?", "Does ASU have Student Centers?", "Does ASU have Career and Professional Development center?", "Does ASU have Graduate and Professional Student Association?", "Does ASU have Dining facilities?", "Does ASU have a Fitness Center?", "Does ASU provide University Housing?", "Does ASU have Family Resources?", "Does ASU provide University Housing?", "Does ASU provide Health Services?", "Is there any transportation available across campus?", "Is there any transportation available between campus?", "Is there any transportation available across the town?"],
+        "responses": ["ASU provides multiple resources online and offline. You can find them all <a target=_blank href=https://admission.asu.edu/graduate/student-resources>here</a>. Hope this helps."],
+        "context_set": ""
+       },
+       {"tag": "#ASUOnline",
+        "patterns": ["Do you have any information regarding online graduate programs?", "Can you tell me about online graduate programs?", "online programs", "Do you have any information regarding online programs?", "Can you tell me about online programs?"],
+        "responses": ["Here, I believe <a target=_blank href=https://asuonline.asu.edu/admission/graduate>this</a> link will help you.", "All I have is <a target=_blank href=https://asuonline.asu.edu/admission/graduate>this link</a> for you."],
+        "context_set": ""
+       },
+       {"tag": "#Balyan",
+        "patterns": ["Who is Renu Balyan?","Do you have any information Dr. Balyan"],
+        "responses": ["Dr. Renu Balyan is a Lecturer at the ASU Polytechnic Campus."],
+        "context_set": ""
+       },
+       {"tag": "hatred",
+        "patterns": ["Fuck You!", "You are useless!", "What the hell"],
+        "responses": ["I'm sorry!", "I apologize, I'm still learning.", "My apologies"],
+        "context_set": ""
+       }
+]
+}
