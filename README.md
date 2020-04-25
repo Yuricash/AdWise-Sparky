@@ -11,10 +11,14 @@ This Chatbot uses a JSON dataset, having intent based training questions and ran
 
 ## Installation
 Install Python 3.6.8
+
+Install virtualenv
 ```pip
 pip install virtualenv
 ```
 Go to repository folder.
+
+Create virtual environment
 ```
 virtualenv -p python .
 ```
@@ -25,8 +29,8 @@ For Windows:
 .\Scripts\activate
 ```
 For Bash:
-```
-.\Scripts\activate
+```bash
+$ source /bin/activate
 ```
 Install requirements.txt
 ```pip
