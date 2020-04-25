@@ -25,7 +25,7 @@ virtualenv -p python .
 **Activating virtualenv**
 
 For Windows:
-```
+```cmd
 .\Scripts\activate
 ```
 For Bash:
