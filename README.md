@@ -18,6 +18,7 @@ Go to repository folder.
 virtualenv -p python .
 ```
 **Activating virtualenv**
+
 For Windows:
 ```
 .\Scripts\activate
