@@ -2,5 +2,3 @@ Flask==1.1.2
 nltk==3.5
 numpy==1.16.6
 PyAutoGUI==0.9.50
-tensorflow==1.15
-tflearn==0.3.2
