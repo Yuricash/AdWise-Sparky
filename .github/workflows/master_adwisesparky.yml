@@ -30,4 +30,4 @@ jobs:
       with:
         app-name: 'adwisesparky'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_18fa862be75e494bad1f11890be5d4f9 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_413b79de06b543dbb85db704ba6f0ad9 }}
