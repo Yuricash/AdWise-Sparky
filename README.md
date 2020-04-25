@@ -1,5 +1,6 @@
 # AdWise-Sparky
 ASU IFT 598 - Natural Language Processing Final Project
+
 This Project is for our "IFT 598 - Natural Language Processing" course.
 
 ## Description
@@ -10,7 +11,7 @@ This Chatbot uses a JSON dataset, having intent based training questions and ran
 
 ## Installation
 Install Python 3.6.8
-```
+```pip
 pip install virtualenv
 ```
 Go to repository folder.
@@ -28,7 +29,7 @@ For Bash:
 .\Scripts\activate
 ```
 Install requirements.txt
-```
+```pip
 pip install -r requirements.txt
 ```
 Download nltk collections:
