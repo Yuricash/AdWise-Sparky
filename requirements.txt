@@ -1,5 +1,5 @@
 Flask==1.1.2
-nltk==3.5
+nltk==3.6.6
 numpy==1.16.6
 PyAutoGUI==0.9.50
 tensorflow==2.7.2
